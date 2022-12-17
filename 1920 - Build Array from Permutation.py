@@ -31,6 +31,3 @@
 class Solution:
     def buildArray(self, nums):
         return [nums[i] for i in nums]
-
-sol = Solution()
-print(sol.buildArray([5,0,1,2,3,4]))
